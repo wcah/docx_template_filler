@@ -4,6 +4,7 @@ from docx_utils import read_docx, get_text, write_docx, replace_placeholder
 from xlsx_utils import read_xlsx_to_dict
 
 st.title("DOCX Form Filler")
+st.subheader("For full documentation: https://github.com/wcah/docx_template_filler")
 
 docx_file = st.file_uploader("Upload a .docx template", type=["docx"])
 
